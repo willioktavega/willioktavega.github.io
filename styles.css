@@ -1,0 +1,87 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #161A30;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section {
+    text-align: center;
+    background-color: #31304D;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 1000px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    position: relative; /* Added position relative */
+}
+
+img {
+    max-width: 20%;
+    padding-top: 20px;
+    height: auto;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #B6BBC4;
+}
+
+p {
+    color: #B6BBC4;
+}
+
+.hand-icon {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #B6BBC4;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.about-me-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #B6BBC4;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.back-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #B6BBC4;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.resume-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #B6BBC4;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.italic {
+    font-style: italic;
+}
